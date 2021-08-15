@@ -29,7 +29,6 @@ app.get("/", (req, res) => {
         'http://www.partridgegetslucky.com/',
         'http://www.rrrgggbbb.com/',
         'http://beesbeesbees.com/',
-        'http://www.sanger.dk/',
         'http://www.koalastothemax.com/',
         'http://www.everydayim.com/',
         'http://www.leduchamp.com/',
@@ -69,7 +68,6 @@ app.get("/", (req, res) => {
         'http://unicodesnowmanforyou.com/',
         'http://tencents.info/',
         'http://intotime.com/',
-        'http://leekspin.com/',
         'http://minecraftstal.com/',
         'http://www.riddlydiddly.com/',
         'http://www.patience-is-a-virtue.org/',
@@ -86,7 +84,12 @@ app.get("/", (req, res) => {
         'http://hardcoreprawnlawn.com/',
         'http://www.omfgdogs.com/',
         'https://perikat.github.io/Simple-game/',
-        'https://smashthewalls.com/'
+        'https://smashthewalls.com/',
+        'https://aryaholmukhe.github.io/VIRTUAL-PET---4/',
+        'https://aryaholmukhe.github.io/Audio-Visualizer/',
+        'https://aryaholmukhe.github.io/newtons-cradle/',
+        'https://aryaholmukhe.github.io/TREASURE-HUNT/',
+        'https://github.com/Aryaholmukhe'
     ]
     const random = Math.floor(Math.random() * websiteLinks.length)
      link = websiteLinks[random]
